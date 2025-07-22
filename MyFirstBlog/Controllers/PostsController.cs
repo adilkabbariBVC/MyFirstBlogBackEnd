@@ -31,4 +31,29 @@ public class PostsController : ControllerBase {
 
         return post;
     }
+
+    [HttpPost]
+    public IActionResult CreatePost([FromBody] CreatePostRequest request)
+    {
+        if (string.IsNullOrWhiteSpace(request.Title))
+        {
+            return BadRequest(new { errors = new[] { "Title cannot be blank" } });
+        }
+
+        var post = _postService.CreatePost(request.Title, request.Description);
+
+        return Created("", new { post });
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,5 @@
 namespace MyFirstBlog.Helpers;
+using MyFirstBlog.Entities;
 
 using Microsoft.EntityFrameworkCore;
 

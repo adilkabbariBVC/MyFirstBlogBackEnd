@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstBlog.Helpers;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
+using MyFirstBlog.Entities;
 
 #nullable disable
 

@@ -1,5 +1,8 @@
 using MyFirstBlog.Helpers;
+using MyFirstBlog.Entities;
+
 using MyFirstBlog.Services;
+
 
 var  MyAllowLocalhostOrigins = "_myAllowLocalhostOrigins";
 

@@ -1,0 +1,16 @@
+﻿# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.vsidx
+
+# Ignore build folders
+bin/
+obj/
+
+# Ignore Rider, VS Code settings
+.idea/
+.vscode/
+
+# Ignore test results or local test data
+TestStore/
